@@ -6,13 +6,13 @@ var {
 } = require('../src/library.js')
 
 describe('Librarian (class)', function() {
-  it.skip('should instantiate a librarian object', function() {
+  it('should instantiate a librarian object', function() {
     var casey = new Librarian("Casey");
 
     assert.instanceOf(casey, Librarian);
   });
 
-  it.skip('should have a name', function() {
+  it('should have a name', function() {
     var librarian = new Librarian("Casey");
 
     assert.equal(librarian.name, "Casey");
